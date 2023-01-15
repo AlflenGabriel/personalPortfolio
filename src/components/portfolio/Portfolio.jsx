@@ -8,7 +8,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'React Personal Portfolio',
-    github: 'http://github.com/',
+    github: 'https://github.com/AlflenGabriel/personalPortfolio',
     demo: '#'
   },
   {
@@ -50,7 +50,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='Portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

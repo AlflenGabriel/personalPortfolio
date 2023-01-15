@@ -7,7 +7,7 @@ import {ImMobile} from 'react-icons/im'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='About'>
       <h5>Get To Know</h5>
       <h2>About me</h2>
 
@@ -39,7 +39,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maxime vitae dolorum voluptate, repellendus earum ratione repellat quidem doloremque nisi, architecto maiores? Ad itaque corporis laboriosam ea reprehenderit debitis sit?
+          Front-End Developer with experience in create and maintain a better code base for reusability. Capable of continuous learning from senior developers facilitating projects from concept to launch. passionate about learning and development. Eager to tackle more complex problems and continue to find ways to maximize efficiency.
+          </p>
+          <p>
+          (PT-BR) Desenvolvedor Front-End com experiência em criar e manter uma base de código para reusabilidade. Capaz de aprender continuamente com senior developers, facilitando projetos desde o conceito até o lançamento. apaixonado por aprendizado e desenvolvimento. Ansioso para resolver problemas mais complexos e continuar a encontrar maneiras de maximizar a eficiência.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

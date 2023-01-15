@@ -22,7 +22,7 @@
 
 .contact__option:hover {
     background: transparent;
-    border: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
 }
 
 .contact__option-icon {
@@ -46,6 +46,7 @@ form {
 }
 
 input, textarea {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -53,6 +54,14 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder{
+    color: transparent;
 }
 
 @media screen and (max-width: 1024px){
