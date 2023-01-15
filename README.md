@@ -1,4 +1,4 @@
-# demo:
+# demo
 
 https://alflengabriel.netlify.app
 
