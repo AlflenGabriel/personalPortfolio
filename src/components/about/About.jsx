@@ -45,7 +45,7 @@ const About = () => {
           (PT-BR) Desenvolvedor Front-End com experiência em criar e manter uma base de código para reusabilidade. Capaz de aprender continuamente com senior developers, facilitando projetos desde o conceito até o lançamento. apaixonado por aprendizado e desenvolvimento. Ansioso para resolver problemas mais complexos e continuar a encontrar maneiras de maximizar a eficiência.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
