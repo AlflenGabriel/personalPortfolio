@@ -17,15 +17,15 @@ const Nav = () => {
 	    <AiOutlineHome />
       </Link></li>
       <li className='nav-item'>
-      <Link to="About" spy={true} smooth={true} offset={55} duration={100}>
+      <Link to="About" spy={true} smooth={true} offset={-40} duration={100}>
 	    <AiOutlineUser />
       </Link></li>
       <li className='nav-item'>
-      <Link to="Experience" spy={true} smooth={true} offset={60} duration={100}>
+      <Link to="Experience" spy={true} smooth={true} offset={-40} duration={100}>
 	    <BiBook />
       </Link></li>
       <li className='nav-item'>
-      <Link to="Portfolio" spy={true} smooth={true} offset={60} duration={100}>
+      <Link to="Portfolio" spy={true} smooth={true} offset={-40} duration={100}>
 	    <TbComponents />
       </Link></li>
       <li className='nav-item'>
