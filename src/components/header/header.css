@@ -11,7 +11,6 @@ header {
 }
 
 .cta {
-    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -34,17 +33,15 @@ header {
     background: var(--color-primary);
 }
 
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 3rem 1rem 1rem 1rem;
+.me{
+    padding: 200px 0;
+    font-size: 5rem;
+    color: var(--color-primary)
     
+}
+
+.me b {
+    font-size: 200%;
 }
 
 .scroll__down {
@@ -59,6 +56,10 @@ header {
 @media screen and (max-width: 600px){
     header {
         height: 100vh;
+    }
+
+    .me h1 {
+        font-size: 4rem;
     }
 
     .header__socials,
