@@ -36,12 +36,20 @@ header {
 .me{
     padding: 200px 0;
     font-size: 5rem;
-    color: var(--color-primary)
+    color: var(--color-primary);
     
 }
 
 .me b {
     font-size: 200%;
+}
+
+.Typewriter {
+    transition: var(--transition);
+}
+
+.Typewriter:hover {
+    color: antiquewhite;
 }
 
 .scroll__down {
