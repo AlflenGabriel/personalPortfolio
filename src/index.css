@@ -91,26 +91,26 @@ link {
 }
 
 link:hover {
-    color: var(--color-hover);
+    color: var(--color-primary);
 }
 
 a {
-    color: var(--color-primary);
+    color: var(--color-hover);
     transition: var(--transition);
 }
 
 a:not(.btn):hover {
-    color: var(--color-hover);
+    color: var(--color-primary);
 }
 
 .btn  {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-hover);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-hover);
     transition: var(--transition);
 }
 
@@ -123,11 +123,11 @@ a:not(.btn):hover {
 .btn.btn--disabled{
     cursor: not-allowed;
     background: var(--color-gray);
-    border-color: #777;
+    border-color: var(--color-hover);
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: var(--color-hover);
     color: var(--color-bg);
 }
 
