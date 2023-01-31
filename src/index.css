@@ -11,14 +11,14 @@
 }
 
 :root {
-    --color-bg: #1d1d20;
-    --color-bg-variant: #111113;
+    --color-bg: #001A2A;
+    --color-bg-variant: #001522;
     --color-primary: #d1d1d1;
-    --color-primary-variant: rgb(135,186,115, 0.4);
+    --color-primary-variant: #0060A3;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-gray: #464646;
-    --color-hover: rgb(135,186,115);
+    --color-hover: #0096FF;
 
     --transition: all 400ms ease;
 
