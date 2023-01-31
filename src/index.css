@@ -11,13 +11,14 @@
 }
 
 :root {
-    --color-bg: #151515;
-    --color-bg-variant: #222;
-    --color-primary: #009EFF;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #1d1d20;
+    --color-bg-variant: #111113;
+    --color-primary: #d1d1d1;
+    --color-primary-variant: rgb(135,186,115, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-gray: #464646;
+    --color-hover: rgb(135,186,115);
 
     --transition: all 400ms ease;
 
@@ -39,8 +40,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background: rgb(41,41,41);
-    background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(24,24,24,1) 60%, rgba(17,17,17,1) 100%);
 }
 
 .container {
@@ -75,7 +74,7 @@ section > h5 {
 }
 
 section h2 {
-    color: var(--color-primary);
+    color: var(--color-hover);
     margin-bottom: 3rem;
 }
 section h5 {
@@ -92,7 +91,7 @@ link {
 }
 
 link:hover {
-    color: var(--color-white);
+    color: var(--color-hover);
 }
 
 a {
@@ -101,7 +100,7 @@ a {
 }
 
 a:not(.btn):hover {
-    color: var(--color-white);
+    color: var(--color-hover);
 }
 
 .btn  {
