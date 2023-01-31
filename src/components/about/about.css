@@ -29,10 +29,6 @@
     height: 100%;
 }
 
-.about__me-animation:hover {
-    transform: rotate(-10deg);
-}
-
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

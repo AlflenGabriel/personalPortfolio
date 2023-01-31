@@ -33,7 +33,7 @@
     padding: 200px 0;
     font-size: 5rem;
     color: var(--color-primary);
-    
+    transition: var(--transition); 
 }
 
 .me b {
@@ -41,9 +41,8 @@
 }
 
 .Typewriter__wrapper:hover {
-    transition: var(--transition);
     color: var(--color-white);
-
+    transition: var(--transition); 
 }
 .Typewriter__cursor:hover {
     transition: var(--transition);
@@ -64,8 +63,8 @@
         height: 100vh;
     }
 
-    .me {
-        font-size: 2rem;
+    .me .Typewriter {
+        font-size: 2.5rem;
     }
 
     .header__socials,

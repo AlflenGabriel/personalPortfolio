@@ -64,6 +64,9 @@ ul {
     list-style: none;
     display: flex;
 }
+section{
+    display: block;
+}
 
 section > h2,
 section > h5 {
