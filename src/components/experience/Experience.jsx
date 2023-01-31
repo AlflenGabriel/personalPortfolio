@@ -40,7 +40,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__backend">
+        <div className="experience__others">
         <h3>Others</h3>
           <div className="experience__content">
             <article className='experience__details'>

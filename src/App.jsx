@@ -22,12 +22,22 @@ const App = () => {
 
   return (
     <>
-      <div className='sections'>
-        <Header />
-        <About />
-        <Experience />
-        <Portfolio />
-        <Contact /> 
+      <div className='container'>
+        <section>
+          <Header />
+        </section>
+        <section>
+          <About />
+        </section>
+        <section>
+          <Experience />
+        </section>
+        <section>
+          <Portfolio />
+        </section>
+        <section>
+          <Contact />
+        </section>
       </div>
       <Nav/>
       <Footer />

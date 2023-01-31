@@ -10,13 +10,13 @@ var typewriter = new Typewriter(null, {
 
 const Header = () => {
   return (
-    <header id='Header'>
+    <section id='Header'>
     <div className="container header__container">
     <CTA />
     <HeaderSocials />
 
     <div className="me">
-    <Typewriter options={{
+    <Typewriter className="typewriter" options={{
       loop: true,
       }}
       onInit={(typewriter) => {
@@ -31,7 +31,7 @@ const Header = () => {
 
     <a href="#Contact" className='scroll__down'>Scroll Down</a>
     </div>
-    </header>
+    </section>
   )
 }
 

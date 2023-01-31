@@ -17,19 +17,19 @@ const Nav = () => {
 	    <AiOutlineHome />
       </Link></li>
       <li className='nav-item'>
-      <Link to="About" spy={true} smooth={true} offset={98} duration={100}>
+      <Link to="About" spy={true} smooth={true} offset={0} duration={100}>
 	    <AiOutlineUser />
       </Link></li>
       <li className='nav-item'>
-      <Link to="Experience" spy={true} smooth={true} offset={98} duration={100}>
+      <Link to="Experience" spy={true} smooth={true} offset={0} duration={100}>
 	    <BiBook />
       </Link></li>
       <li className='nav-item'>
-      <Link to="Portfolio" spy={true} smooth={true} offset={98} duration={100}>
+      <Link to="Portfolio" spy={true} smooth={true} offset={0} duration={100}>
 	    <TbComponents />
       </Link></li>
       <li className='nav-item'>
-      <Link to="Contact" spy={true} smooth={true} offset={40} duration={100}>
+      <Link to="Contact" spy={true} smooth={true} offset={0} duration={100}>
 	    <BiMessageSquareDetail />
       </Link></li>
       </ul>
