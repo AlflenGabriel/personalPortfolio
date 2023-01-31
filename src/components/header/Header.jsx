@@ -16,7 +16,7 @@ const Header = () => {
     <HeaderSocials />
 
     <div className="me">
-    <Typewriter className="typewriter" options={{
+    <span><Typewriter className="typewriter" options={{
       loop: true,
       }}
       onInit={(typewriter) => {
@@ -27,6 +27,7 @@ const Header = () => {
         .start();
       }}
       />
+      </span>
     </div>
 
     <a href="#Contact" className='scroll__down'>Scroll Down</a>
